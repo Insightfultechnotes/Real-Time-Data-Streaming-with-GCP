@@ -4,11 +4,18 @@
 
 This project demonstrates a **real-time data pipeline** using **Google Cloud Platform (GCP)** services. A simulated temperature sensor sends data to **Pub/Sub**, which triggers a **Cloud Function** to store the data in **Cloud Storage**. The data can then be analyzed using **BigQuery** and visualized with **Looker Studio**.
 
+## Educational Value
+
+Demonstrates a real-time, serverless data pipeline.<br/>
+Shows how GCP services integrate seamlessly.<br/>
+Scalable, pay-as-you-go architecture.<br/>
+Perfect for teaching IoT, streaming, or cloud-native design.<br/>
+
 ## USECASE
 
-A temperature sensor (Python script) generates data every few seconds.
-This data is published to a Pub/Sub topic.
-A Cloud Function subscribes to the topic, processes the message, and stores it in Google Cloud Storage.
+A temperature sensor (Python script) generates data every few seconds.<br/>
+This data is published to a Pub/Sub topic.<br/>
+A Cloud Function subscribes to the topic, processes the message, and stores it in Google Cloud Storage.<br/>
 
 ## Project Flow
 
