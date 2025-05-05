@@ -1,8 +1,24 @@
-# Real-Time Temperature Streaming Project (Google Cloud Platform)
+# Real-Time Temperature Sensor Simulation with Pub/Sub, Cloud Functions, and Cloud Storage
 
 ## Overview
 
 This project demonstrates a **real-time data pipeline** using **Google Cloud Platform (GCP)** services. A simulated temperature sensor sends data to **Pub/Sub**, which triggers a **Cloud Function** to store the data in **Cloud Storage**. The data can then be analyzed using **BigQuery** and visualized with **Looker Studio**.
+
+## USECASE
+
+A temperature sensor (Python script) generates data every few seconds.
+This data is published to a Pub/Sub topic.
+A Cloud Function subscribes to the topic, processes the message, and stores it in Google Cloud Storage.
+
+## Project Flow
+
+[Python Script (Publisher)] <BR/>
+        ↓ <BR/>
+[Pub/Sub Topic: temperature-topic] <BR/>
+        ↓ <BR/>
+[Cloud Function: store_temperature_data()] <BR/>
+        ↓ <BR/>
+[GCS Bucket: /temperature_data/] <BR/>
 
 ## Learning Outcomes for Students:
 
