@@ -6,16 +6,16 @@ This project demonstrates a **real-time data pipeline** using **Google Cloud Pla
 
 ## Educational Value
 
-Demonstrates a real-time, serverless data pipeline.<br/>
-Shows how GCP services integrate seamlessly.<br/>
-Scalable, pay-as-you-go architecture.<br/>
-Perfect for teaching IoT, streaming, or cloud-native design.<br/>
+-  Demonstrates a real-time, serverless data pipeline.<br/>
+-  Shows how GCP services integrate seamlessly.<br/>
+-  Scalable, pay-as-you-go architecture.<br/>
+-  Perfect for teaching IoT, streaming, or cloud-native design.<br/>
 
 ## USECASE
 
-A temperature sensor (Python script) generates data every few seconds.<br/>
-This data is published to a Pub/Sub topic.<br/>
-A Cloud Function subscribes to the topic, processes the message, and stores it in Google Cloud Storage.<br/>
+-  A temperature sensor (Python script) generates data every few seconds.<br/>
+-  This data is published to a Pub/Sub topic.<br/>
+-  A Cloud Function subscribes to the topic, processes the message, and stores it in Google Cloud Storage.<br/>
 
 ## Project Flow
 
