@@ -6,11 +6,11 @@ This project demonstrates a **real-time data pipeline** using **Google Cloud Pla
 
 ## Learning Outcomes for Students:
 
-✅ Understand how real-time data streaming works
-✅ Learn how GCP services connect together
-✅ See how serverless computing (Cloud Functions) responds to events
-✅ Practice writing simple Python scripts for cloud integration
-✅ Build cloud-native dashboards using Looker Studio
+✅ Understand how real-time data streaming works <br/>
+✅ Learn how GCP services connect together <br/>
+✅ See how serverless computing (Cloud Functions) responds to events <br/>
+✅ Practice writing simple Python scripts for cloud integration <br/>
+✅ Build cloud-native dashboards using Looker Studio <br/>
 
 ## Services Used
 
