@@ -29,28 +29,29 @@ This project demonstrates a **real-time data pipeline** using **Google Cloud Pla
 
 ## Architecture
 
-+-------------+ +-------------+ +-------------------+
-| Temperature | ----> | Pub/Sub | ----> | Cloud Function |
-| Publisher | | Topic | | (Python Trigger) |
-+-------------+ +-------------+ +-------------------+
-|
++-------------+ +-------------+ +-------------------+<br/>
+| Temperature | ----> | Pub/Sub | ----> | Cloud Function |<br/>
+| Publisher | | Topic | | (Python Trigger) |<br/>
++-------------+ +-------------+ +-------------------+|<br/>
+||<br/>
 v
-+----------------+
-| Cloud Storage |
-| (Text Files) |
-+----------------+
-|
++----------------+|<br/>
+| Cloud Storage ||<br/>
+| (Text Files) ||<br/>
++----------------+|<br/>
+||<br/>
 v
-+----------------+
-| BigQuery |
-| (Optional) |
-+----------------+
-|
++----------------+|<br/>
+| BigQuery ||<br/>
+| (Optional) ||<br/>
++----------------+|<br/>
+||<br/>
 v
-+----------------+
-| Looker Studio |
-| (Visualization)|
-+----------------+
++----------------+|<br/>
+| Looker Studio ||<br/>
+| (Visualization)||<br/>
++----------------+|<br/>
+
 ## Learning Outcomes for Students:
 
 ✅ Understand how real-time data streaming works <br/>
