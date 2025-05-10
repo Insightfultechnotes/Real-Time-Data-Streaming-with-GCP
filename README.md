@@ -27,6 +27,30 @@ This project demonstrates a **real-time data pipeline** using **Google Cloud Pla
         ↓ <BR/>
 [GCS Bucket: /temperature_data/] <BR/>
 
+## Architecture
+
++-------------+ +-------------+ +-------------------+
+| Temperature | ----> | Pub/Sub | ----> | Cloud Function |
+| Publisher | | Topic | | (Python Trigger) |
++-------------+ +-------------+ +-------------------+
+|
+v
++----------------+
+| Cloud Storage |
+| (Text Files) |
++----------------+
+|
+v
++----------------+
+| BigQuery |
+| (Optional) |
++----------------+
+|
+v
++----------------+
+| Looker Studio |
+| (Visualization)|
++----------------+
 ## Learning Outcomes for Students:
 
 ✅ Understand how real-time data streaming works <br/>
