@@ -5,6 +5,11 @@
 ✅ Create a GCS Bucket:
 
 	gsutil mb -l us-central1 gs://<your-bucket-name>
+ 
+ ✅ create a folder
+ 
+ 	mkdir gcp_pubsub_cloud_function
+  	cd gcp_pubsub_cloud_function
 
  ✅ Deploy the function:
 
